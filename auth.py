@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-__author__ = 'lilo'
+__author__ = 'Luo Lee'
 
 import gflags
 import httplib2
@@ -10,7 +10,7 @@ from oauth2client.tools import run
 from apiclient.discovery import build
 
 class Oauth():
-	'''Authorized for you!'''
+	'''Authorize for you!'''
 	def __init__(self):
 		self.FLAGS = gflags.FLAGS
 
